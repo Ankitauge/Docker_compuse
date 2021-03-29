@@ -1,0 +1,20 @@
+version: '3'
+services:
+        data1:
+                image: "mysql:latest"
+                environment:
+                        - MYSQL_ROOT_PASSWORD="a"
+        
+        data2:
+                image: "mysql"
+                environment:
+                        - MYSQL_ROOT_PASSWORD="a"
+
+
+        data3:
+                image: "mysql"
+                environment:
+                        - MYSQL_ROOT_PASSWORD="a"
+
+
+
